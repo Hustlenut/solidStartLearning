@@ -1,3 +1,7 @@
+# Issues stumbled upon
+
+- Fileroutes component had issues running with the development server on Chrome prior to version 117.0.5938.150. 
+
 # SolidStart
 
 Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);
