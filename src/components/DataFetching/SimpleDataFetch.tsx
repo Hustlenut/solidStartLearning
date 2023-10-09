@@ -74,7 +74,7 @@ function SimpleDataFetch() {
       <button onclick={showUserAndComment}>
         Show Users and Comments
         </button>
-
+        {/**Bug? The property "key" can not be used in the <li> element */}
         {(toShow()) ? (
             <>
              <div>
