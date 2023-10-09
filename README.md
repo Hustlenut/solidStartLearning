@@ -1,6 +1,11 @@
 # Issues stumbled upon
 
-- Fileroutes component had issues running with the development server on Chrome prior to version 117.0.5938.150. 
+- Fileroutes component had issues running with the development server on Chrome prior to version 117.0.5938.150.
+
+# Other dependencies
+
+- There exists notes and tutorial files in PDF and picture formats.
+- Install json-server: "npm install -g json-server". Then start the server: "json-server --watch db.json --port 5000". 
 
 # SolidStart
 

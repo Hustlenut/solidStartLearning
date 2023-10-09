@@ -27,6 +27,7 @@ export default function Root() {
           <ErrorBoundary>
             <A href="/">Index</A>
             <A href="/context-example">Context Example</A>
+            <A href="/simplefetch">Simple Fetch</A>
             <A href="/test">Test</A>
             <Routes>
               <FileRoutes />
