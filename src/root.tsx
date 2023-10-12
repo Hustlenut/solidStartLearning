@@ -29,6 +29,7 @@ export default function Root() {
             <A href="/context-example">Context Example</A>
             <A href="/simplefetch">Simple Fetch</A>
             <A href="/test">Test</A>
+            <A href="/test2">test2</A>
             <Routes>
               <FileRoutes />
             </Routes>

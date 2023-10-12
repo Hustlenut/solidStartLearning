@@ -14,10 +14,8 @@ export default function CounterComponent() {
     return (
       <div>
         <p>Count: {state.count}</p>
-        {/**This property "count" is declared in the custom type "CounterState",
-         * but it is actually used in the array of object literals, "counter", in CounterProvider.
-         * So this property count is referring to that of which is in the object "state",
-         * that is in the array "counter". 
+        {/**This property "count" is declared in the custom type "CounterState".
+         *  "state" is ultimately coming from "createCounter()" in CounterLogic.
          */}
         <button onClick={actions.increment}>Increment</button>
         <button onClick={actions.decrement}>Decrement</button>
