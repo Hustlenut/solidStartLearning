@@ -37,7 +37,7 @@ function SimpleDataFetch() {
     }
   };
 
-  const fetchCommentData = async (): Promise<Comment[]> => {
+  const fetchCommentData = async (): Promise<void> => {
     const response = await fetch("http://localhost:5000/comments");
     const commentData: Comment[] = await response.json();
 
@@ -46,11 +46,9 @@ function SimpleDataFetch() {
       comments: commentData,
     }));
     console.log(data());
-
-    return commentData; //Since the body of a response can only be read once, this: "return await response.json()" cannot be written.
   };
 
-  const showUserAndComment = () => {
+  function showUserAndComment() {
     if(toShow() == false){
         setToShow(true);
     }else {
