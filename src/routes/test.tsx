@@ -8,7 +8,8 @@ export default function Test() {
     }
     return(
         <main>
-        <h1>{aString()}</h1>
+        <h1>Hello World</h1>
+        <h3>{aString()}</h3>
         <button onclick={handleOnclick}>Press Me</button>
         </main>
     )
